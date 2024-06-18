@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _islower - Prints 10 times the alphabet in lowercase
- * Return: Always 0 (Success)
+ * _islower - Check if the character is in lowercase
+ * @c: The character to check
+ *
+ * Return: 1 if character is in lowercase
+ * 0 is returned if character is not in lowercase
  */
 int _islower(int c)
 {
