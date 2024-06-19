@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * print_sign - Compute the absolute value of an integer
+ * _abs - Compute the absolute value of an integer
  *
  * @n: The value to check
  *
