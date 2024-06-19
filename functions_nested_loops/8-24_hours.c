@@ -12,7 +12,8 @@ void jack_bauer(void)
 	int m1 = 0;
 	int m2 = 0;
 
-	while (i < 1440 && m2 <= 9) {
+	while (i < 1440 && m2 <= 9)
+	{
 		_putchar(h1 + '0');
 		_putchar(h2 + '0');
 		_putchar(':');
