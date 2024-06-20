@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * put_int - Display int using _putchar function
+ * put_int - Display number i using _putchar function
  * @i: number to display
  */
 void put_int(int i)
@@ -31,7 +31,6 @@ void put_int(int i)
 			_putchar('0' + i);
 	}
 }
-
 
 /**
  * print_to_98 - Print all natural numbers from n to 98
