@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * int_to_char - Use _putchar to print int
- * @i: number to print
+ * put_int - Display int using _putchar function
+ * @i: number to display
  */
-void int_to_char(int i)
+void put_int(int i)
 {
 	if (i < 0)
 	{
@@ -45,7 +45,7 @@ void print_to_98(int n)
 	{
 		for (i = n ; i <= 98 ; i++)
 		{
-			int_to_char(i);
+			put_int(i);
 			if (i < 98)
 			{
 				_putchar(',');
@@ -57,15 +57,7 @@ void print_to_98(int n)
 	{
 		for (i = n ; i >= 98 ; i--)
 		{
-			if (i >= 100)
-				_putchar('0' + i / 100);
-			if (i >= 10)
-			{
-				_putchar('0' + i / 10 % 10);
-				_putchar('0' + i % 10);
-			}
-			else
-				_putchar('0' + i);
+			put_int(i);
 			if (i > 98)
 			{
 				_putchar(',');
