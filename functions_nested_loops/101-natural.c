@@ -11,9 +11,15 @@ int main(void)
 	int resultat = 0;
 	int i, multiple_3, multiple_5;
 
-	multiple_3 = n / 3;
-	multiple_5 = n / 5;
-	
+	if ((n % 3) == 0)
+		multiple_3 = (n / 3) - 1;
+	else 
+		multiple_3 = n / 3;
+	if ((n % 5) == 0)
+		multiple_5 = (n / 5) - 1;
+	else
+		multiple_5 = n / 5;
+
 	for (i = 1 ; i <= multiple_3 ; i++)
 	{
 		resultat += i * 3;
@@ -22,7 +28,6 @@ int main(void)
 	{
 		resultat += i * 5;
 	}
-
 	printf("%d\n", resultat);
 	return (0);
 }
