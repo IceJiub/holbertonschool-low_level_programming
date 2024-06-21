@@ -40,7 +40,7 @@ void print_times_table(int n)
 {
 	int i, time, resultat;
 
-	if (n < 15 && n > 0)
+	if ((n < 15 && n > 0) || n == 0)
 	{
 		for (time = 0 ; time <= n ; time++)
 		{
