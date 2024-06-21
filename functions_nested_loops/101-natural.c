@@ -3,8 +3,9 @@
 
 /**
  * main - check the code
+ * Return: Always 0
  */
-void main(void)
+int main(void)
 {
 	int n = 1024;
 	int resultat = 0;
@@ -23,4 +24,5 @@ void main(void)
 	}
 
 	printf("%d\n", resultat);
+	return (0);
 }
