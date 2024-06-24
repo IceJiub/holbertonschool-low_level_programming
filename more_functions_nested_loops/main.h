@@ -2,6 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c);
+int put_int(int i);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
