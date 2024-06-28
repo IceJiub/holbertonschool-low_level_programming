@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcpy - Copy string pointed to by src, including the 
+ * _strcpy - Copy string pointed to by src, including the
  * terminating null byte (\0), to the buffer pointed by dest
  * @dest: buffer where string is printed
  * @src: string to copy
@@ -21,5 +21,5 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
-	return dest;
+	return (dest);
 }
