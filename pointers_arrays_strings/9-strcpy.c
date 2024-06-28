@@ -6,6 +6,7 @@
  * terminating null byte (\0), to the buffer pointed by dest
  * @dest: buffer where string is printed
  * @src: string to copy
+ * Return: buffer with copied string
  */
 
 char *_strcpy(char *dest, char *src)
